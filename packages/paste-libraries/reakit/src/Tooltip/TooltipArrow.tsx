@@ -1,5 +1,4 @@
-import {createComponent} from 'reakit-system/createComponent';
-import {createHook} from 'reakit-system/createHook';
+import {createComponent, createHook} from 'ariakit-utils';
 import {PopoverArrowOptions, PopoverArrowHTMLProps, usePopoverArrow} from '../Popover/PopoverArrow';
 import {TOOLTIP_ARROW_KEYS} from './__keys';
 

@@ -35,22 +35,22 @@ export {
   TabPanel,
   // https://reakit.io/docs/tooltip/
   useTooltipState,
+  // TooltipReference,
   Tooltip,
-  TooltipReference,
-} from 'reakit';
+} from 'ariakit';
 
 export type {
   CompositeState,
-  CompositeStateReturn,
-  CompositeInitialState,
+  // CompositeStateReturn,
+  // CompositeInitialState,
   CompositeProps,
   CompositeItemProps,
   CompositeGroupProps,
   DisclosureProps,
   DisclosureContentProps,
   DisclosureState,
-  DisclosureInitialState,
-  DisclosureStateReturn,
+  // DisclosureInitialState,
+  // DisclosureStateReturn,
   MenuProps,
   MenuGroupProps,
   MenuItemProps,
@@ -59,23 +59,37 @@ export type {
   MenuButtonProps,
   MenuSeparatorProps,
   PopoverState,
-  PopoverStateReturn,
-  PopoverInitialState,
+  // PopoverStateReturn,
+  // PopoverInitialState,
   PopoverProps,
   PopoverDisclosureProps,
   PortalProps,
   TabState,
-  TabInitialState,
-  TabStateReturn,
+  // TabInitialState,
+  // TabStateReturn,
   TabProps,
   TabListProps,
   TabPanelProps,
   TooltipState,
+  // TooltipInitialState,
+  // TooltipStateReturn,
+  // TooltipReferenceProps,
+  TooltipProps,
+} from 'ariakit';
+
+export type {
+  CompositeStateReturn,
+  CompositeInitialState,
+  DisclosureInitialState,
+  DisclosureStateReturn,
+  PopoverStateReturn,
+  PopoverInitialState,
+  TabInitialState,
+  TabStateReturn,
   TooltipInitialState,
   TooltipStateReturn,
-  TooltipProps,
   TooltipReferenceProps,
-} from 'reakit';
+} from 'reakit'; // todo
 
 export {PopoverArrow};
 export type {PopoverArrowProps};

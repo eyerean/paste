@@ -3,9 +3,7 @@
 // Using props for fill and stroke
 
 import * as React from 'react';
-import {createComponent} from 'reakit-system/createComponent';
-import {createHook} from 'reakit-system/createHook';
-import {useForkRef} from 'reakit-utils/useForkRef';
+import {useForkRef, createComponent, createHook} from 'ariakit-utils';
 import {BoxOptions, BoxHTMLProps, useBox, PopoverStateReturn} from 'reakit';
 import {POPOVER_ARROW_KEYS} from './__keys';
 

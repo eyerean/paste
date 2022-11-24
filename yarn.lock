@@ -3352,6 +3352,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@floating-ui/core@npm:1.0.2"
+  checksum: a6c93c15c4408dfa5acff31c275f36d85f4107a9d7562da2d6c014c810559843a71e38622046195856966929d20a37793e7ed0905e54ddc8edd91cd10500ce8d
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.0.0":
+  version: 1.0.7
+  resolution: "@floating-ui/dom@npm:1.0.7"
+  dependencies:
+    "@floating-ui/core": ^1.0.2
+  checksum: 4bcdeab82b7239fdf32289a297b1e8743656375daeffc4a7b685d934c9ad356b1b77683032fcff527249bc48d9e6a00bff65e5a6119f06f19c6bb9f026efcf30
+  languageName: node
+  linkType: hard
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@npm:0.0.2":
   version: 0.0.2
   resolution: "@gatsbyjs/parcel-namer-relative-to-cwd@npm:0.0.2"
@@ -11628,6 +11644,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@twilio-paste/reakit-library@workspace:packages/paste-libraries/reakit"
   dependencies:
+    ariakit: ^2.0.0-next.41
+    ariakit-utils: ^0.17.0-next.26
     react: ^18.0.0
     react-dom: ^18.0.0
     reakit: 1.3.11
@@ -15407,6 +15425,28 @@ __metadata:
   version: 5.0.0
   resolution: "aria-query@npm:5.0.0"
   checksum: c41f98866c5a304561ee8cae55856711cddad6f3f85d8cb43cc5f79667078d9b8979ce32d244c1ff364e6463a4d0b6865804a33ccc717fed701b281cf7dc6296
+  languageName: node
+  linkType: hard
+
+"ariakit-utils@npm:0.17.0-next.26, ariakit-utils@npm:^0.17.0-next.26":
+  version: 0.17.0-next.26
+  resolution: "ariakit-utils@npm:0.17.0-next.26"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+  checksum: dc41a324c74561dfc6afa6037ac4227b06f73a16336d670285392d630bab42d259269ca1afe1c05cc3d5b2bdbc941a518053ba7427edec60080bd8bb3dffd226
+  languageName: node
+  linkType: hard
+
+"ariakit@npm:^2.0.0-next.41":
+  version: 2.0.0-next.41
+  resolution: "ariakit@npm:2.0.0-next.41"
+  dependencies:
+    "@floating-ui/dom": ^1.0.0
+    ariakit-utils: 0.17.0-next.26
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: a0384dbc4e44211f31e7347a9613a02e98965d4f675bda0a0d9ce002adfe7921abe1b1f77a56569cec93750feb05fd28809adf959006df145b679b94e143786d
   languageName: node
   linkType: hard
 
